@@ -5,6 +5,7 @@ function preload() {
 
 
 
+
 function setup() {
     createCanvas(400, 400);
     p = createVector(width / 2, height / 2)
@@ -27,7 +28,12 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background("lightblue");
+
+    text("Kill the enemies", 50,30)
+    text("Press Space to shoot", 50,50)
+    textSize(15);
+
 
     updatePlayer();
     updateBubbles();

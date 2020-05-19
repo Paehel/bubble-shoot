@@ -32,7 +32,7 @@ function updateBubbles() {
         }
 
         fill(132, 112, 255, 45)
-        stroke(255);
+        stroke(0);
         ellipse(bb[i].x, bb[i].y, bbSize);
         pop();
     }
